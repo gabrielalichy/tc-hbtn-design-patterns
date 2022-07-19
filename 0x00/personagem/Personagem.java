@@ -76,6 +76,8 @@ public abstract class Personagem {
     public void setDestreza(int destreza) {
         this.destreza = destreza;
     }
+    
+    public abstract double getDanoAtaque();
 
     @Override
     public boolean equals(Object o) {
