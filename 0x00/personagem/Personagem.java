@@ -79,6 +79,7 @@ public abstract class Personagem {
     
     public abstract double getDanoAtaque();
 
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
