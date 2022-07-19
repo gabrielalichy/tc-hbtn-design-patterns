@@ -1,5 +1,7 @@
 public enum TipoPersonagem {
 
-    GUERREIRO, MAGO, LADRAO;
+    GUERREIRO, 
+    MAGO, 
+    LADRAO;
 
 }
