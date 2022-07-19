@@ -1,3 +1,7 @@
+
+
+import java.util.Objects;
+
 public abstract class Personagem {
 
     private String nome;
@@ -12,13 +16,13 @@ public abstract class Personagem {
     }
 
     public Personagem(String nome, TipoPersonagem tipo, int inteligencia, int forca, int vigor, int resistencia, int destreza) {
-        this.nome = nome;
-        this.tipo = tipo;
-        this.inteligencia = inteligencia;
-        this.forca = forca;
-        this.vigor = vigor;
-        this.resistencia = resistencia;
-        this.destreza = destreza;
+        setNome(nome);
+        setTipo(tipo);
+        setInteligencia(inteligencia);
+        setForca(forca);
+        setVigor(vigor);
+        setResistencia(resistencia);
+        setDestreza(destreza);
     }
 
     public String getNome() {
@@ -76,9 +80,8 @@ public abstract class Personagem {
     public void setDestreza(int destreza) {
         this.destreza = destreza;
     }
-    
-    public abstract double getDanoAtaque();
 
+    public abstract double getDanoAtaque();
 
     @Override
     public boolean equals(Object o) {
@@ -99,4 +102,3 @@ public abstract class Personagem {
     }
 
 }
-
