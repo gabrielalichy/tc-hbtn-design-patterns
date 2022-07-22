@@ -2,8 +2,8 @@ A Arquitetura Hexagonal veio com a proposta de desenvolver um padrão de sistema
 
 Ela divide o sistema em dois grandes grupos:
 
-- Classes de Domínio, relacionadas às regras de negócio do sistema
-- Classes responsáveis com infraestrutura que é responsável pela integração com sistemas externos, como SGBD
+Classes de Domínio, relacionadas às regras de negócio do sistema
+Classes responsáveis com infraestrutura que é responsável pela integração com sistemas externos, como SGBD
 
 Além disso, em uma Arquitetura Hexagonal, classes de domínio não devem depender de classes relacionadas com infraestrutura, tecnologias ou sistemas externos. A vantagem dessa divisão é desacoplar esses dois tipos de classes.
 
